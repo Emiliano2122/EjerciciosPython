@@ -1,9 +1,14 @@
-ciudades = ["Alemania", "Tokio", "Londres", "Paris", "Roma", "Moscu", "España", "Sideny", "Berlin"]
+ciudades = ["Alemania", "Tokio", "Londres", "Paris", "Roma", "Moscu", "España", "Sidny", "Berlin"]
+print(ciudades)
+print("Cual quieres eliminar:")
+ciudad = input()
+print(ciudad)
 
-if 'Paris' not in ciudades:
-    ciudades.append('Paris')
-    mensaje = "'Paris' no esta en la lista y se ha agragado."
+if ciudad not in ciudades:
+    ciudades.append(ciudad)
+    mensaje = "La ciudad ya no esta en la lista agragado."
 else:
-    mensaje = "'Paris' ya no esta en la lista."
+    mensaje = "La ciudad ya esta en la lista."
 
 print(mensaje)
+print(ciudades)

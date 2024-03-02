@@ -1,6 +1,6 @@
 ciudades = ["Alemania", "Tokio", "Londres", "Paris", "Roma", "Moscu", "España", "Sideny", "Berlin"]
 
-otra_lista_ciudades = ["Brasil", "Argentina", "Urugua"]
+otra_lista_ciudades = ["Brasil", "Argentina", "Montevideo"]
 
 ciudades_concatenadas = ciudades + otra_lista_ciudades
 

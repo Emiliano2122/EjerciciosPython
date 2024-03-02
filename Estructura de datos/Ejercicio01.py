@@ -3,3 +3,4 @@ ciudades = ["Alemania", "Tokio", "Londres", "Paris", "Roma", "Moscu", "España",
 print("Nombre de la ciudad del mundo")
 for ciudad in ciudades:
     print(ciudad)
+print(type(ciudades))
