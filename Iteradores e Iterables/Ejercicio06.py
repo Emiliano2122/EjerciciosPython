@@ -8,3 +8,7 @@ for numero in range(1, 21):
 
 print("Valores faltantes en la lista:")
 print(valores_faltantes)
+lista + valores_faltantes
+gurdar = lista + valores_faltantes
+gurdar.sort()
+print(gurdar)
