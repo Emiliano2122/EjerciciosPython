@@ -1,8 +1,11 @@
-fibonacci = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229]
+d = [0,1]
+
+d += [(d := [d[1], d[0] + d[1]]) and d[1] for k in range(1, 6)]
+print(d)
 
 cocientes = []
 for i in range(1, 6):
-    cociente = fibonacci[-i - 1] / fibonacci[-i]
+    cociente = d[-i - 1] / d[-i]
     cocientes.append(cociente)
 
 print("Cocientes de los ultimos 5 pares de numeros contiguos en la secuencia de Fibonacci:")
