@@ -4,5 +4,4 @@ mi_dicctionario = {
     "Ciudad": "Queretaro"
 }
 
-for clave in mi_dicctionario:
-    print(clave)
+print(*(clave for clave in mi_dicctionario))
